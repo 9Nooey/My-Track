@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เช็กตําแหน่งรถไฟ Realtime</title>
+    <title>📍 Tracking </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { background-color: #eef2f7; font-family: 'Sarabun', sans-serif; }
@@ -17,7 +17,7 @@
 
 <div class="container">
     <div class="app-container text-center">
-        <h3 class="mb-3">🚂 เช็กตําแหน่งรถไฟ</h3>
+        <h3 class="mb-3">🚂 Tracking</h3>
         
         <div class="input-group mb-3">
             <input type="number" id="trainNo" class="form-control" placeholder="เลขขบวน (เช่น 997)" value="997">
@@ -39,7 +39,7 @@
 
 <script>
     // --- ⚠️ วาง URL ของ Google Apps Script ที่ได้จากข้อ 1 ตรงนี้ ---
-    const GAS_URL = "https://script.google.com/macros/s/xxxxxxxxx/exec"; 
+    const GAS_URL = "https://script.google.com/macros/s/AKfycbzptWSsqLar351Et-xgLrwIjwWzFsh0NYV4_lzZZ6aaSs3MWud6hkJrlwEAZ1AgKXAZZg/exec"; 
 
     function setTrain(no) {
         document.getElementById('trainNo').value = no;
